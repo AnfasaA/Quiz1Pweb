@@ -1,0 +1,117 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #000;
+  line-height: 1.8;
+}
+
+.bgimg-1 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgimg-1 {
+  background-image: url('../images/greek-vase.png');
+  min-height: 100%;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+
+.bg-1 {
+    background-color:#ffffff;
+    color: #ffffff;
+  }
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 20px;
+  }
+
+  * {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  max-width: 1250px;
+  position: relative;
+  margin: auto;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+.map-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+#map {
+    height: 400px;
+    width: 1000px;
+   }
+
+.pic-container {
+    max-width: 900px;
+    position: relative;
+    margin: auto;
+  }
+
+  .wrap {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.fleft {
+    float:left; 
+    width: 500px;
+}
+
+.fright {
+float: right;
+    width: 500px;
+}

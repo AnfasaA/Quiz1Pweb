@@ -1,0 +1,19 @@
+{
+  "hosting": {
+    "redirects": [
+      {
+        "source": "/",
+        "destination": "/quiz1",
+        "type": 302
+      }
+    ],
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "cleanUrls": true,
+    "trailingSlash": false
+  }
+}

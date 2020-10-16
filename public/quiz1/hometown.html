@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<title>Hometown</title>
+<link rel="icon" href="../images/web-header.png" type="image/x-icon type">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+<link rel="stylesheet" type="text/css" href="../css/main.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="../script/main.js"></script>
+<script src="../script/map.js"></script>
+
+<body>
+  <div class="top">
+    <div class="bar" id="myNavbar">
+      <a class="bar-item button hover-black hide-medium hide-large right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+        <i class="fa fa-bars"></i>
+      </a>
+      <a href="../quiz1.html" class="bar-item button">HOME</a>
+      <a href="profile.html" class="bar-item button hide-small"><i class="fa fa-user"></i> PROFILE</a>
+      <a href="hometown.html" class="bar-item button hide-small"><i class="fa fa-home"></i> HOMETOWN</a>
+      <a href="food.html" class="bar-item button hide-small"><i class="fa fa-cutlery"></i> FOOD</a>
+      <a href="tourist.html" class="bar-item button hide-small"><i class="fa fa-plane"></i> TOURIST</a>
+      </a>
+    </div>
+  
+    <div id="navDemo" class="bar-block white hide hide-large hide-medium">
+      <a href="../quiz1.html" class="bar-item button" onclick="toggleFunction()">HOME</a>
+      <a href="profile.html" class="bar-item button" onclick="toggleFunction()">PROFILE</a>
+      <a href="hometown.html" class="bar-item button" onclick="toggleFunction()">HOMETOWN</a>
+      <a href="food.html" class="bar-item button" onclick="toggleFunction()">FOOD</a>
+      <a href="tourist.html" class="bar-item button" onclick="toggleFunction()">TOURIST</a>
+    </div>
+  </div>
+
+<div class="container-fluid">
+    <h1 class="center"><i><b>BATAM</b></i></h1>
+</div>
+
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <img src="../images/Batam1.png" style="width:100%" >
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="../images/Batam2.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="../images/Batam3.png" style="width:100%">
+    </div>
+</div>
+<br>
+    
+<div style="text-align:center">
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+</div>
+
+<div class="content container padding-64" id="about">
+    <div class="text-justify">
+    <p>Before i introduce my hometown, do you know where Batam is? if you didn't know it yet, you can see it in the map below!
+        it's pretty close to singapore and malaysia, so we have so much imported snack there.
+    </div>
+</div>
+
+<div class="map-container">
+     <div id="map" style="width:30%"></div>
+</div>
+
+<div class="content container padding-64" id="about">
+    <div class="text-justify">
+  <p>Batam is the largest city in the province of Riau Islands, Indonesia. The city administrative area covers three main islands of Batam, Rempang, and Galang (collectively called Barelang), as well as several small islands. 
+      Batam Island is the core urban and industrial zone, while both Rempang Island and Galang Island maintain their rural character and are connected to Batam Island by short bridges. Batam is an industrial boomtown, an emerging transport hub, 
+      and part of a free trade zone in the Indonesia–Malaysia–Singapore Growth Triangle, located 20 km (12 mi) off Singapore's south coast and also part of the Indonesia–Malaysia–Thailand Growth Triangle.</p>
+  <p>If you want to go to singapore or malaysia, you can go there using ferry boat with only thirty minutes to an hour of travel time.
+      the price range is also cheap, it's about  one hundred to two hundred thousand rupiah for one trip. So if you live in Batam, you can go to singapore or malaysia almost every week! it's pretty fun right?
+    </div>
+</div>
+
+<footer class="center black padding-16">
+  <div class="xlarge section">
+    <p>Visit My Social Media!</p>
+    <a href="https://www.instagram.com/anfasauruss/?hl=en"><i class="fa fa-instagram hover-opacity"></i></a>
+    <a href="https://twitter.com/fiantrpuserctus"><i class="fa fa-twitter hover-opacity"></i></a>
+    <a href="https://github.com/AnfasaA"><i class="fa fa-github hover-opacity"></i></a>
+  </div>
+</footer>
+ 
+
+<script src="../script/slideshow.js"></script>
+<script defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDMIz6qdt5dBF_A_8_pxQZLy3n4c1Tvulw&callback=initMap">
+    </script>
+</body>
+</html>
